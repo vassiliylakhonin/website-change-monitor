@@ -1,0 +1,18 @@
+{
+  "name": "website-change-monitor",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Detect meaningful website content changes with structured diffs",
+  "type": "module",
+  "main": "handler.ts",
+  "scripts": {
+    "dev": "node --import tsx server.mjs",
+    "start": "node --import tsx server.mjs"
+  },
+  "dependencies": {
+    "tsx": "^4.19.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
